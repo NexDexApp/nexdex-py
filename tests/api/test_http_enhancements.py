@@ -3,7 +3,7 @@
 from unittest.mock import patch
 
 import httpx
-import pytest
+import pytest 
 
 from nexdex_py.api.http_client import HttpClient, HttpMethod
 from nexdex_py.api.protocols import DefaultRetryStrategy, NoOpSigner
