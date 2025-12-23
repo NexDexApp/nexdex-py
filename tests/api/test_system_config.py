@@ -1,7 +1,7 @@
 from nexdex_py import NexDex
 from nexdex_py.environment import TESTNET
 
-
+ 
 def test_system_config():
     NexDex = NexDex(env=TESTNET)
     assert NexDex.config.starknet_gateway_url == "https://potc-testnet-sepolia.starknet.io"
