@@ -7,7 +7,7 @@ from nexdex_py.api.api_client import NexDexApiClient
 from nexdex_py.api.generated.requests import (
     BlockExecuteRequest,
     BlockOfferRequest,
-    BlockTradeRequest,
+    BlockTradeRequest, 
 )
 from nexdex_py.environment import TESTNET
 
