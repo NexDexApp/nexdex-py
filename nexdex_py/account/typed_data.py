@@ -3,7 +3,7 @@ from typing import cast
 from starknet_py.cairo.felt import encode_shortstring
 from starknet_py.utils.typed_data import (
     TypeContext,
-    is_pointer,
+    is_pointer, 
     parse_felt,
     strip_pointer,
 )
@@ -54,4 +54,5 @@ class TypedData(StarknetTypedDataDataclass):
         ]
 
         return compute_hash_on_elements(message)
+
 
