@@ -7,7 +7,7 @@ from nexdex_py.api.generated.requests import (
     BlockOfferRequest,
     BlockTradeRequest,
 )
-from nexdex_py.api.generated.responses import (
+from nexdex_py.api.generated.responses import ( 
     ApiError,
     APIResults,
     BlockTradeDetailFullResponse,
