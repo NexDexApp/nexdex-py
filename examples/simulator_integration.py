@@ -7,7 +7,7 @@ Comprehensive example demonstrating all simulator-friendly features:
 2. WebSocket injection with custom connectors
 3. Manual message pumping for deterministic processing
 4. High-frequency mode (no artificial delays)
-5. subscribe_by_name() for direct channel control
+5. subscribe_by_name() for direct channel control 
 6. JSON-RPC 2.0 compliant WebSocket models
 
 Perfect starting point for backtesting and simulation systems.
