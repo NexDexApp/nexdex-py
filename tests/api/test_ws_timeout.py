@@ -7,7 +7,7 @@ from nexdex_py.environment import TESTNET
 
 MOCK_L1_PRIVATE_KEY = "0x0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
 MOCK_L1_ADDRESS = "0xabcdef0123456789abcdef0123456789abcdef01"
-
+ 
 
 class TestWebSocketTimeout:
     """Simple test suite for WebSocket timeout configuration functionality."""
