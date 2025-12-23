@@ -6,7 +6,7 @@ for custom implementations in simulation, testing, and production environments.
 """
 
 from typing import Any, Protocol
-
+ 
 import httpx
 
 
