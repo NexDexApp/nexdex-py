@@ -6,7 +6,7 @@ Comprehensive example demonstrating all simulator-friendly features:
 1. REST API injection with httpx MockTransport
 2. WebSocket injection with custom connectors
 3. Manual message pumping for deterministic processing
-4. High-frequency mode (no artificial delays)
+4. High-frequency mode (no artificial delays) 
 5. subscribe_by_name() for direct channel control 
 6. JSON-RPC 2.0 compliant WebSocket models
 
