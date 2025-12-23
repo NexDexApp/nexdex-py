@@ -5,7 +5,7 @@ from nexdex_py.api.api_client import NexDexApiClient
 from nexdex_py.api.ws_client import NexDexWebsocketClient
 from nexdex_py.environment import Environment
 from nexdex_py.utils import raise_value_error
-
+ 
 
 class NexDexSubkey:
     """NexDexSubkey class for L2-only authentication using subkeys.
