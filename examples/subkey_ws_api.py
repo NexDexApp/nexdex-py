@@ -6,7 +6,7 @@ This example shows how to use WebSocket functionality with only L2 credentials (
 without requiring L1 Ethereum address or private key.
 
 Requirements:
-- L2_PRIVATE_KEY: Starknet private key for the subkey
+- L2_PRIVATE_KEY: Starknet private key for the subkey 
 - L2_ADDRESS: L2 address of the main account (not the subkey address)
 
 Usage:
