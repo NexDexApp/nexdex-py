@@ -1,5 +1,5 @@
 from nexdex_py.message.onboarding import build_onboarding_message
-
+ 
 
 def test_build_onboarding_message():
     assert build_onboarding_message(1) == {
