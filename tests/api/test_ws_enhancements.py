@@ -6,7 +6,7 @@ import time
 from unittest.mock import MagicMock, patch
 
 import pytest
-from websockets import State
+from websockets import State 
 
 from nexdex_py.api.ws_client import NexDexWebsocketClient
 from nexdex_py.environment import TESTNET
