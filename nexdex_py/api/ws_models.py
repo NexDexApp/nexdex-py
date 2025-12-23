@@ -8,7 +8,7 @@ from typing import Any
 
 from pydantic import BaseModel, ConfigDict, Field
 
-
+ 
 class JSONRPCRequest(BaseModel):
     """Standard JSON-RPC 2.0 request."""
 
