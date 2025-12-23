@@ -7,7 +7,7 @@ def test_build_onboarding_message():
             "action": "STARK Key",
         },
         "domain": {"name": "NexDex", "chainId": 11155111, "version": "1"},
-        "primaryType": "Constant",
+        "primaryType": "Constant", 
         "types": {
             "EIP712Domain": [
                 {"name": "name", "type": "string"},
