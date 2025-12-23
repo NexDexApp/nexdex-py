@@ -7,7 +7,7 @@ import traceback
 from collections.abc import Callable
 from enum import Enum
 from typing import Any, Protocol
-
+ 
 import websockets
 from pydantic import BaseModel
 from websockets import ClientConnection, State
