@@ -9,7 +9,7 @@ TEST_ACCOUNTS = [
     },
     {
         "name": "account_2",
-        "l1_private_key": "0x540ab0bb29f505a33fb279b588ae69b22cc427f2283f20a8f62e425e777676c0",
+        "l1_private_key": "0x540ab0bb29f505a33fb279b588ae69b22cc427f2283f20a8f62e425e777676c0", 
         "l1_address": "0x9788c06Aaa6D95214fFc84fd78DB4C6fAC2745D8",
     },
     {
@@ -18,6 +18,7 @@ TEST_ACCOUNTS = [
         "l1_address": "0x886351476C8Ca89a6A87D0bf6D74136eBae92f8d",
     },
 ]
+
 
 
 
