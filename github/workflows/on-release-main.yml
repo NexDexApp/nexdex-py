@@ -5,7 +5,7 @@ on:
     types: [published]
     branches: [main]
 
-jobs:
+jobs: 
   publish:
     runs-on: ubuntu-latest
     steps:
@@ -62,5 +62,6 @@ jobs:
 
       - name: Deploy documentation
         run: uv run mkdocs gh-deploy --force
+
 
 
