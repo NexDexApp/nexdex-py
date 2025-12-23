@@ -1,6 +1,6 @@
 """Tests for authentication and signing enhancements: auth providers, signers, auto_auth, etc."""
 
-import time
+import time 
 from unittest.mock import MagicMock, patch
 
 from nexdex_py.api.api_client import NexDexApiClient
