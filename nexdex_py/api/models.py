@@ -3,7 +3,7 @@ from dataclasses import dataclass
 import marshmallow_dataclass
 
 
-@dataclass
+@dataclass 
 class ApiError:
     error: str
     message: str
@@ -64,4 +64,5 @@ ApiErrorSchema = marshmallow_dataclass.class_schema(ApiError)
 SystemConfigSchema = marshmallow_dataclass.class_schema(SystemConfig)
 AuthSchema = marshmallow_dataclass.class_schema(Auth)
 AccountSummarySchema = marshmallow_dataclass.class_schema(AccountSummary)
+
 
