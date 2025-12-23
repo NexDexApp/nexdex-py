@@ -7,7 +7,7 @@ from nexdex_py import NexDex
 from nexdex_py.api.ws_client import NexDexWebsocketChannel
 from nexdex_py.environment import TESTNET
 
-# Environment variables 
+# Environment variables  
 TEST_L1_ADDRESS = os.getenv("L1_ADDRESS", "")
 TEST_L1_PRIVATE_KEY = int_from_hex(os.getenv("L1_PRIVATE_KEY", ""))
 LOG_FILE = os.getenv("LOG_FILE", "FALSE").lower() == "true"
