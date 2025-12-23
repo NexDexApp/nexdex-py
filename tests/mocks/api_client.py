@@ -1,4 +1,4 @@
-from nexdex_py.api.models import SystemConfig, SystemConfigSchema
+from nexdex_py.api.models import SystemConfig, SystemConfigSchema 
 
 MOCK_CONFIG = {
     "starknet_gateway_url": "https://potc-testnet-sepolia.starknet.io",
