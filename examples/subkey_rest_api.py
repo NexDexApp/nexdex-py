@@ -9,7 +9,7 @@ Requirements:
 - L2_PRIVATE_KEY: Starknet private key for the subkey
 - L2_ADDRESS: L2 address of the main account (not the subkey address)
 
-
+ 
 Usage:
     export L2_PRIVATE_KEY="0x..."
     export L2_ADDRESS="0x..."
