@@ -1,0 +1,57 @@
+site_name: "NexDex Python SDK" # via logo
+repo_url: https://github.com/tradeNexDex/NexDex-py
+site_url: https://tradeNexDex.github.io/NexDex-py
+site_description: NexDex Python SDK
+site_author: NexDex
+edit_uri: edit/main/docs/
+repo_name: tradeNexDex/NexDex-py
+
+plugins:
+  - search
+  - privacy
+  - autorefs
+  - mkdocstrings:
+      handlers:
+        python:
+          setup_commands:
+            - import sys
+            - sys.path.append('../')
+
+theme:
+  name: material
+  nav_style: dark
+  logo: assets/NexDex-light.svg
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.top
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: deep purple
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tradeNexDex/NexDex-py
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/NexDex-py
+  generator: false
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - attr_list
+
+extra_css:
+  - assets/styles.css
+
+
+
