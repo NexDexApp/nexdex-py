@@ -2,7 +2,7 @@ import asyncio
 import os
 from decimal import Decimal
 
-from starknet_py.common import int_from_hex
+from starknet_py.common import int_from_hex 
 
 from nexdex_py import NexDex
 from nexdex_py.environment import TESTNET
