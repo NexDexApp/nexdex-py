@@ -3,7 +3,7 @@
 """
 Block Trades Workflow Integration Test - Standalone Script
 
-USAGE:
+USAGE: 
     # First generate test accounts (required once):
     uv run generate_test_keys.py
 
