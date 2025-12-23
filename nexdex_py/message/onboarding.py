@@ -6,7 +6,7 @@ from starknet_py.utils.typed_data import TypedDataDict
 def build_onboarding_message(chain_id: int) -> TypedDataDict:
     message = {
         "message": {
-            "action": "Onboarding",
+            "action": "Onboarding", 
         },
         "domain": {"name": "NexDex", "chainId": hex(chain_id), "version": "1"},
         "primaryType": "Constant",
