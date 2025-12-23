@@ -11,7 +11,7 @@ plugins:
   - privacy
   - autorefs
   - mkdocstrings:
-      handlers:
+      handlers: 
         python:
           setup_commands:
             - import sys
