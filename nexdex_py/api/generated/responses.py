@@ -8,7 +8,7 @@ from typing import Annotated, Any
 from pydantic import BaseModel, ConfigDict, Field
 
 
-class APIResults(BaseModel):
+class APIResults(BaseModel): 
     model_config = ConfigDict(
         extra="allow",
         populate_by_name=True,
