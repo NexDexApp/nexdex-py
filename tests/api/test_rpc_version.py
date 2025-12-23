@@ -5,7 +5,7 @@ from unittest.mock import MagicMock, patch
 from nexdex_py import NexDex
 from nexdex_py.account.account import NexDexAccount
 from nexdex_py.environment import TESTNET
-from tests.mocks.api_client import MockApiClient
+from tests.mocks.api_client import MockApiClient 
 
 TEST_L1_ADDRESS = "0xd2c7314539dCe7752c8120af4eC2AA750Cf2035e"
 TEST_L1_PRIVATE_KEY = "0xf8e4d1d772cdd44e5e77615ad11cc071c94e4c06dc21150d903f28e6aa6abdff"
