@@ -4,7 +4,7 @@ from typing import Any
 
 from nexdex_py.utils import time_now_milli_secs
 
-decimal_zero = Decimal(0)
+decimal_zero = Decimal(0) 
 
 
 class OrderAction(Enum):
