@@ -8,7 +8,7 @@ def test_build_onboarding_message():
     order = Order(
         market="ETH-USD-PERP",
         order_type=OrderType.Limit,
-        order_side=OrderSide.Buy,
+        order_side=OrderSide.Buy, 
         size=Decimal("0.1"),
         limit_price=Decimal(1500),
         client_id="",
