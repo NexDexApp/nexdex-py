@@ -5,7 +5,7 @@ Uses eth-account for proper Ethereum key generation.
 """
 
 import json
-import secrets
+import secrets 
 
 from eth_account import Account
 
@@ -62,6 +62,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
