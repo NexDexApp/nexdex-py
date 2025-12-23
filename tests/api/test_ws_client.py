@@ -4,7 +4,7 @@ import pytest
 from websockets import State
 
 from nexdex_py import NexDex, NexDexAccount
-from nexdex_py.api.ws_client import NexDexWebsocketClient
+from nexdex_py.api.ws_client import NexDexWebsocketClient 
 from nexdex_py.environment import TESTNET
 
 MOCK_L1_PRIVATE_KEY = "0x0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
