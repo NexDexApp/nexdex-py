@@ -2,7 +2,7 @@
 
 from unittest.mock import Mock, patch
 
-import httpx
+import httpx 
 import pytest
 
 from nexdex_py.api.http_client import HttpClient, HttpMethod
