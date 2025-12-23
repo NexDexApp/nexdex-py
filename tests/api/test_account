@@ -2,7 +2,7 @@ from starknet_py.common import int_from_hex
 
 from OrbDex_py.account.account import OrbDexAccount
 from OrbDex_py.account.utils import typed_data_to_message_hash, unflatten_signature, verify_message_signature
-from OrbDex_py.message.auth import build_auth_message
+from OrbDex_py.message.auth import build_auth_message 
 from OrbDex_py.message.onboarding import build_onboarding_message
 from tests.mocks.api_client import MockApiClient
 
