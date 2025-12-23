@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# NexDex Python SDK
+# NexDex Python SDK 
 
 !!! warning
     **Experimental SDK, library API is subject to change**
