@@ -3,7 +3,7 @@ from decimal import Decimal
 from nexdex_py.common.order import Order, OrderSide, OrderType
 from nexdex_py.message.block_trades import BlockTrade, Trade, build_block_trade_message
 
-
+ 
 def test_trade_class():
     # Create test orders
     maker_order = Order( 
