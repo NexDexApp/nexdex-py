@@ -3,7 +3,7 @@ import logging
 import re
 from collections.abc import Callable
 
-import marshmallow_dataclass
+import marshmallow_dataclass 
 from starknet_py.constants import RPC_CONTRACT_ERROR
 from starknet_py.contract import Contract, InvokeResult
 from starknet_py.hash.selector import get_selector_from_name
@@ -193,4 +193,5 @@ def get_proxy_config():
     return ProxyConfig(
         proxy_checks=[StarkwareETHProxyCheck(), ArgentProxyCheck(), OpenZeppelinProxyCheck()],
     )
+
 
