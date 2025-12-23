@@ -4,7 +4,7 @@ import pytest
 
 from nexdex_py.api.api_client import NexDexApiClient
 from nexdex_py.environment import TESTNET
-
+ 
 
 class TestNexDexApiClient:
     def setup_method(self):
