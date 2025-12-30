@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ### Setup and Installation
  
-```bash
+```bash 
 # Install dependencies using uv (fast Python package manager)
 make install
 # Or directly with uv:
