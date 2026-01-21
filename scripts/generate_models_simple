@@ -7,8 +7,7 @@ This script:
 2. Uses swagger2openapi to convert it to OpenAPI 3.0 format
 3. Generates Pydantic models using datamodel-code-generator
 """
- 
-import argparse
+ import argparse
 import json
 import subprocess
 import sys
