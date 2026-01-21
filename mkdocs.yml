@@ -6,6 +6,7 @@ site_author: NexDex
 edit_uri: edit/main/docs/
 repo_name: tradeNexDex/NexDex-py
 
+
 plugins:
   - search
   - privacy
