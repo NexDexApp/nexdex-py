@@ -7,6 +7,7 @@ You can contribute in many ways:
 
 # Types of Contributions 
 
+
 ## Report Bugs
 
 Report bugs at [https://github.com/tradeNexDex/NexDex-py/issues](https://github.com/NexDexTrade)
