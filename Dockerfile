@@ -2,6 +2,7 @@
 
 FROM ubuntu:24.04
 
+
 # Install dependencies
 RUN DEBIAN_FRONTEND=noninteractive apt-get update \
     && apt-get install -y --no-install-recommends \
