@@ -15,6 +15,7 @@ uv sync
 
 ### Code Quality and Testing
 
+
 ```bash
 # Run all code quality checks (linting, type checking, dependency checks)
 make check
