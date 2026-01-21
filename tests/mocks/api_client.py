@@ -1,5 +1,6 @@
 from nexdex_py.api.models import SystemConfig, SystemConfigSchema 
 
+
 MOCK_CONFIG = {
     "starknet_gateway_url": "https://potc-testnet-sepolia.starknet.io",
     "starknet_fullnode_rpc_url": "https://pathfinder.api.testnet.NexDex.trade/rpc/v0.5",
