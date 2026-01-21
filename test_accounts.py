@@ -1,6 +1,7 @@
 # Generated Ethereum test accounts
 # DO NOT USE IN PRODUCTION - FOR TESTING ONLY
 
+
 TEST_ACCOUNTS = [
     {
         "name": "account_1",
@@ -18,6 +19,7 @@ TEST_ACCOUNTS = [
         "l1_address": "0x886351476C8Ca89a6A87D0bf6D74136eBae92f8d",
     },
 ]
+
 
 
 
