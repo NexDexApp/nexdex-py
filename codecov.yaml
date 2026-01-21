@@ -1,4 +1,5 @@
 coverage:
+
   range: 70..100
   round: down
   precision: 1
@@ -9,5 +10,6 @@ coverage:
         threshold: 0.5%
 
  
+
 
 
