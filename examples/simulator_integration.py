@@ -10,6 +10,7 @@ Comprehensive example demonstrating all simulator-friendly features:
 5. subscribe_by_name() for direct channel control 
 6. JSON-RPC 2.0 compliant WebSocket models
 
+
 Perfect starting point for backtesting and simulation systems.
 """
 import asyncio
