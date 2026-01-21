@@ -4,6 +4,7 @@ help:
 
 UV := uv 
 
+
 .PHONY: setup
 setup: ## Create venv, lock dependencies, install dependencies and pre-commit hooks
 	@echo "🚀 Checking for UV..."
