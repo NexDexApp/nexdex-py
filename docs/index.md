@@ -2,7 +2,6 @@
 hide:
   - navigation
 ---
-
 # NexDex Python SDK 
 
 !!! warning
