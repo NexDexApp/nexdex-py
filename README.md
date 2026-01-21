@@ -4,6 +4,7 @@ NexDex Python SDK provides a simple interface to interact with the NexDex REST a
 
 ## Examples
 
+
 ### L1 + L2 Authentication (Traditional)
  
 ```python
