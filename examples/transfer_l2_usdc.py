@@ -5,7 +5,7 @@ from decimal import Decimal
 from starknet_py.common import int_from_hex 
 
 from nexdex_py import NexDex
-from nexdex_py.environment import TESTNET
+from nexdex_py.environment import TESTNET 
 
 # Environment variables
 TEST_L1_ADDRESS = os.getenv("L1_ADDRESS", "")
