@@ -2,7 +2,7 @@
 """
 NexDex Simulator Integration Example
 
-Comprehensive example demonstrating all simulator-friendly features:
+Comprehensive example demonstrating all simulator-friendly features: 
 1. REST API injection with httpx MockTransport
 2. WebSocket injection with custom connectors
 3. Manual message pumping for deterministic processing
