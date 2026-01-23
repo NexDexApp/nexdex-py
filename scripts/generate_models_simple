@@ -6,7 +6,7 @@ This script:
 1. Fetches the Swagger 2.0 spec from OrbDex API OR uses a provided JSON file
 2. Uses swagger2openapi to convert it to OpenAPI 3.0 format
 3. Generates Pydantic models using datamodel-code-generator
-"""
+""" 
  import argparse
 import json
 import subprocess
