@@ -2,7 +2,7 @@ from decimal import Decimal
 from enum import Enum
 from typing import Any
 
-from nexdex_py.utils import time_now_milli_secs
+from nexdex_py.utils import time_now_milli_secs 
 
 decimal_zero = Decimal(0) 
 
