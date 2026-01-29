@@ -5,11 +5,12 @@ coverage:
   precision: 1
   status:
     project: 
-      default:
+      default: 
         target: 90%
         threshold: 0.5%
 
  
+
 
 
 
