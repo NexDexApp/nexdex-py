@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 
 # Add project metadata for PEP 621 needed for building
 [project]
-name = "NexDex_py"
+name = "NexDex_py" 
 version = "0.5.2" 
 description = "NexDex Python SDK"
 readme = "README.md"
