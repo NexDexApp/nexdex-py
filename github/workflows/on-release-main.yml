@@ -3,7 +3,7 @@ name: release-main
 on:
   release:
     types: [published] 
-    branches: [main]
+    branches: [main] 
 
 jobs: 
   publish:
@@ -62,6 +62,7 @@ jobs:
 
       - name: Deploy documentation
         run: uv run mkdocs gh-deploy --force
+
 
 
 
