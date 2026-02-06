@@ -5,7 +5,7 @@ import time
 from typing import Any, cast
 
 import httpx
-
+ 
 from nexdex_py.account.account import NexDexAccount
 from nexdex_py.api.block_trades_api import BlockTradesMixin 
 from nexdex_py.api.http_client import HttpClient, HttpMethod
