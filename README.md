@@ -2,38 +2,6 @@
 
 NexDex Python SDK provides a simple interface to interact with the NexDex REST and WS API.
 
-## Examples
-
-
-### L1 + L2 Authentication (Traditional)
- 
-```python
-from NexDex_py import NexDex
-from NexDex_py.environment import Environment
-
-NexDex = NexDex(env=Environment.TESTNET, l1_address="0x...", l1_private_key="0x...") 
-print(hex(NexDex.account.l2_address)) # 0x...
-print(hex(NexDex.account.l2_public_key)) # 0x...
-print(hex(NexDex.account.l2_private_key)) # 0x...
-```
-
-### L2-Only Authentication (Subkey)
-
-```python
-from NexDex_py import NexDexSubkey
-from NexDex_py.environment import Environment
-
-# Use NexDexSubkey for L2-only authentication
-NexDex = NexDexSubkey(
-    env=Environment.TESTNET,
-    l2_private_key="0x...",
-    l2_address="0x..."
-)
-print(hex(NexDex.account.l2_address)) # 0x...
-print(hex(NexDex.account.l2_public_key)) # 0x...
-print(hex(NexDex.account.l2_private_key)) # 0x...
-```
-
 ### WebSocket Usage
 
 ```python
@@ -53,21 +21,6 @@ await NexDex.ws_client.subscribe(NexDexWebsocketChannel.MARKETS_SUMMARY, callbac
 - WS (L1+L2): [examples/connect_ws_api.py](examples/connect_ws_api.py)
 - WS (L2-only): [examples/subkey_ws_api.py](examples/subkey_ws_api.py)
 - Transfer: [examples/transfer_l2_usdc.py](examples/transfer_l2_usdc.py)
-
-## Development
-
-```bash
-make install
-make check
-make test
-make build
-make clean-build
-make publish
-make build-and-publish
-make docs-test
-make docs
-make help
-```
 
 ### Using uv
 
@@ -100,14 +53,7 @@ If you prefer not to use `make` commands, you can directly use `uv` for developm
   uv build
   ```
 
-For more detailed information on using `uv`, refer to the [uv documentation](https://docs.astral.sh/uv/).
-
 The CI/CD pipeline will be triggered when a new pull request is opened, code is merged to main, or when new release is created.
-
-## Notes
-
-> [!WARNING]
-> Experimental SDK, library API is subject to change
 
 
 
